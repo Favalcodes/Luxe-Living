@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .navbar{
     float: left;
@@ -12,17 +15,37 @@ body{
     padding-top: 14px;
     padding-bottom: 7px;
 }
-ul{
-    background-color: bisque;
-}
-li{
+a{
     list-style-type: none;
-    float: left;
+    float: right;
     font-size: 16px;
     padding-right: 40px;
     background-color: bisque;
+    text-decoration: none;
+    color: #000000;
+    font-family: Poppins;
 }
 .nav-item{
     padding-top: 29px;
     padding-bottom: 29px;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50px;
+    float: right;
+}
+button{
+    height: 40px;
+    width: 141px;
+    border-radius: 5px;;
+    background: #55ACEE;
+    float: right;
+    border: none;
+    outline: none;
+}
+.btn{
+   padding-top: 21px;
+   padding-bottom: 21px;
 }
