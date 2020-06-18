@@ -84,7 +84,7 @@ body{
     font-size: 48px;
 }
 .container-sm{
-    background-color: blueviolet;
+
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
@@ -97,14 +97,36 @@ body{
     margin-right: 4%;
 
 }
+
+.thumbnail{
+   background: #fefefe;
+    width: 450px;
+    height: 500px;
+}
+.line{
+    border: 1px #e0e0e0;
+    width: 440px;
+    background: #e0e0e0;
+    height: 1px;
+}
+h5{
+    color: #000000;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 50px;
+    text-align: left;
+}
 .thumbnail p{
     text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+   
    
 }
-.thumbnail{
-    background: violet;
-    width: 450px;
-    height: 520px;
+.content{
+    text-align: justify;
+    height: 100px;
 }
-
-
+.location{
+    padding-top: 30px;
+}
