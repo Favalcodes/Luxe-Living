@@ -28,11 +28,11 @@ body{
 .nav-bar{
     float: right;
   overflow: hidden;
-  margin-top: -4%;
+  margin-top: -5%;
   padding: 20px;
 }
-.logo img{
-    padding-top: 10px;
+.logo{
+    padding-top: 20px;
 }
 .nav-bar a {
     float: left;
@@ -159,6 +159,7 @@ i{
 @media only screen and (max-width: 1024px){
     .thumbnail{
         width: 400px;
+        margin-left: -5%;
     }
     .line{
         width: 399px;
@@ -182,7 +183,6 @@ i{
     .container-sm{
         width: 100%;
         margin: auto;
-        background-color: thistle;
     }
     .logo {
         margin-top: 2%;
@@ -199,9 +199,20 @@ i{
     .container-sm{
         margin-left: -4%;
     }
+    .nav-bar{
+        margin-left: 13%;
+        margin-top: -25%;
+    }
     .container-sm-2{
         width: 200px;
-        background-color: blue;
      }
-    
+     .thumbnail{
+         width: 350px;
+     }
+    .content{
+        width: 300px;
+    }
+    .line{
+        width: 298px;
+    }
 }
