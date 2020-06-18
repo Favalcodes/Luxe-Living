@@ -1,0 +1,202 @@
+/* Genral styling */
+*, body {
+    padding: 0;
+    margin: 0;
+}
+/* Genral styling */
+
+
+/* section styling */
+#main-body, #our-choose, 
+#testimonial, #partner {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.main-body-title, .choose-title, 
+.testimony-title, .partner-title {
+    padding-bottom: 3%;
+}
+
+#our-choose,  #partner {
+    background: #f2f2f2;
+}
+/* section styling */
+
+
+
+/* Navbar styling */
+
+nav {
+    width: 100%;
+}
+
+.navbar-brand span {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    margin-right: 25px;
+}
+/* Navbar */
+
+/* jumbotron */
+.jumbotron {
+    min-height: calc(100vh - 60px)
+}
+
+.jumbotron h1{
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+.search {
+    margin-top: 20%;
+    padding: 0 auto 0 20px;
+    background: #ffffff;
+}
+/* Jumbotron */
+
+
+/* Properties feature style */
+.card .d-flex p {
+    width: 45%;
+    margin-top: 2px;
+}
+
+.card-body{
+    background: #f2f2f2;
+}
+
+.card p {
+    font-size: .7rem;
+}
+
+.card hr {
+    margin: 0 auto 5px auto;
+}
+
+/* Properties feature style */
+
+
+/* choosen section */
+.circle {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: #ffffff;
+    position: relative;
+}
+
+.outer, .middle, .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.left {
+    position: absolute;
+    top: 30px;
+    left: 13px;
+}
+
+.right {
+    position: absolute;
+    top: 30px;
+    right: 13px;
+}
+
+.top{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.upper {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fin-left {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.fin-right {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.fin-top{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fin-upper {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* choosen section */
+
+
+
+/* testimony */
+.testimony-wrapper {
+    background-color: #e8fffe;
+    padding: 10px 15px;
+    margin: 10px auto 10px 20px;
+}
+/* testimony */
+
+
+
+/* footer */
+footer {
+    background: #0275d8;
+    color: #fff;
+    padding:  5% 20px 15px 20px;
+}
+
+.list-unstyled li a {
+    color: #ffffff;
+}
+
+.social-icon a i {
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+}
+/* footer */
+
+
+/* Media Queries */
+@media only screen and (max-width: 950px) {
+    .jumbotron h1{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .jumbotron h1{
+        font-size: 1rem;
+    }
+}
