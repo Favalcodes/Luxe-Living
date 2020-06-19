@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
   <title>Luxe Living Real Estate</title>
+  <link rel="icon" href="./images/logo.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="product.css">
@@ -14,30 +17,47 @@
 </head>
 <body>
   <!--Header-->
-  <header class="header" id="navbar">
-    <!--Logo-->
-    <div class="logo">
-      
-      <img src="images/logo.png">
-    
+  <!-- NAVBAR-->
+  <nav class="navbar navbar-expand-lg navbar-white bg-white sticky-top " style="box-shadow: 0px 2px 3px rgba(229, 229,229, 0.8)">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="margin-left: -4%;">
+            <img src="images/logo.svg" alt="">
+          </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" style="outline: none;">
+            <span class="navbar-toggler-icon"><i class="fa fa-bars fa4" style="color: #55acee;"></i></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive" style="margin-left: 15%; font-size: 16px;">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link  text-dark" href="index.html">Home
+                  
+                </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Gallery</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#" style="color: #55acee;">Property <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Testimonial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Guide</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Contact</a></li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#" style="background-color: #55acee; width: 141px; text-align: center; border-radius: 5px;">Sign Up</a></li>
+        </ul>
+      </div>
     </div>
-    <!--Logo Closed-->
-    <!--Nav Items-->
-    <nav class="nav-bar" id="nav-bar">
-      <uL class="nav-items" id="nav-items">
-        <a href="#" class="items">Home</a>
-        <a href="#" class="items">About</a>
-        <a href="#" class="items">Gallery</a>
-        <a href="#" class="items">Testimonial</a>
-        <a href="#" class="items">Guide</a>
-        <a href="#" class="items">Products</a>
-        <a href="#" class="items">Contact Us</a>
-        <a href="#" class="items button">Sign up</a>
-       
-      </uL>
-      
-    </nav>
-    <!--Nav closed-->
+  </nav>
+  
+  <!---->
   </header>
   <!--Header Closed-->
   <main>
@@ -50,89 +70,94 @@
     <!--Products-->
     <div class="container-sm">
           <div class="row text-center">
-      <div class="col-sm-5">
+      <div class="col-sm-6">
         <div class="thumbnail">
           <img src="images/apt1.png" alt="nails">
           <h5><strong>Sky City Apartment</strong></h5>
           <p style="padding-top: 10px;"> Benefits</p>
           <div class="content">
-            <p><img src="images/Vector.png">Swimming Pool &nbsp;&nbsp; 
-            <img src="images/Vector (1).png">Recreation garden &nbsp;&nbsp; 
-            <img src="images/Vector (2).png" >Gated Estate &nbsp;&nbsp; 
-            <img src="images/Vector (3).png"> Security &nbsp;&nbsp; 
-          <img src="images/Vector (4).png">Beautiful Living Environment &nbsp;&nbsp; </p>
+            <p><img src="images/Vector.png">&nbsp;Swimming Pool &nbsp;&nbsp; 
+            <img src="images/Vector (1).png">&nbsp;Recreation garden &nbsp;&nbsp; 
+            <img src="images/Vector (2).png" >&nbsp;Gated Estate &nbsp;&nbsp; 
+            <img src="images/Vector (3).png"> &nbsp;Security &nbsp;&nbsp; 
+          <img src="images/Vector (4).png">&nbsp;Beautiful Living Environment &nbsp;&nbsp; </p>
           </div>
           <div class="line"></div>
           <div class="location">
-            <p><img src="images/Group 29.png">&nbsp;&nbsp; 1901 Thornridge Cir. Shiloh, Hawaii 81063 <button>Buy Now</button></p>
+            <p><img src="images/Group 29.png">&nbsp;&nbsp; 1901 Thornridge Cir. Shiloh, Hawaii 81063 &nbsp;&nbsp;&nbsp;<button>Buy Now</button></p>
           </div>
         </div>
       </div>
-      <div class="col-sm-5">
+      <div class="col-sm-6">
         <div class="thumbnail">
           <img src="images/apt2.png" alt="New York">
           <h5><strong>Brickhills garden</strong></h5>
           <p style="padding-top: 10px;">Benefits</p>
          
             <div class="content">
-              <p><img src="images/Vector.png">Swimming Pool &nbsp;&nbsp; 
-              <img src="images/Vector (1).png">Recreation garden &nbsp;&nbsp; 
-              <img src="images/Vector (2).png" >Gated Estate &nbsp;&nbsp; 
-              <img src="images/Vector (3).png"> Security &nbsp;&nbsp; 
-            <img src="images/Vector (4).png">Beautiful Living Environment &nbsp;&nbsp; </p>
+              <p><img src="images/Vector.png">&nbsp;Swimming Pool &nbsp;&nbsp; 
+              <img src="images/Vector (1).png">&nbsp;Recreation garden &nbsp;&nbsp; 
+              <img src="images/Vector (2).png" >&nbsp;Gated Estate &nbsp;&nbsp; 
+              <img src="images/Vector (3).png"> &nbsp;Security &nbsp;&nbsp; 
+            <img src="images/Vector (4).png">&nbsp;Beautiful Living Environment &nbsp;&nbsp; </p>
             </div>
           
           <div class="line"></div>
           <div class="location">
-            <p ><img src="images/Group 29.png">&nbsp;&nbsp; 1901 Thornridge Cir. Shiloh, Hawaii 81063 <button>Buy Now</button></p>
+            <p ><img src="images/Group 29.png">&nbsp;&nbsp; 1901 Thornridge Cir. Shiloh, Hawaii 81063 &nbsp;&nbsp;&nbsp;<button>Buy Now</button></p>
           </div>
         </div>
       </div>
-      <div class="col-sm-5">
+      <div class="col-sm-6">
         <div class="thumbnail">
           <img src="images/apt3.png" alt="San Francisco">
           <h5><strong>Ivy luxuria apartment</strong></h5>
           <p style="padding-top: 10px;">Benefits</p>
           <div class="content">
-            <p><img src="images/Vector.png">Swimming Pool &nbsp;&nbsp; 
-            <img src="images/Vector (1).png">Recreation garden &nbsp;&nbsp; 
-            <img src="images/Vector (2).png" >Gated Estate &nbsp;&nbsp; 
-            <img src="images/Vector (3).png"> Security &nbsp;&nbsp; 
-          <img src="images/Vector (4).png">Beautiful Living Environment &nbsp;&nbsp; </p>
+            <p><img src="images/Vector.png">&nbsp;Swimming Pool &nbsp;&nbsp; 
+            <img src="images/Vector (1).png">&nbsp;Recreation garden &nbsp;&nbsp; 
+            <img src="images/Vector (2).png" >&nbsp;Gated Estate &nbsp;&nbsp; 
+            <img src="images/Vector (3).png"> &nbsp;Security &nbsp;&nbsp; 
+          <img src="images/Vector (4).png">&nbsp;Beautiful Living Environment &nbsp;&nbsp; </p>
           </div>
           <div class="line"></div>
           <div class="location">
-            <p><img src="images/Group 29.png">&nbsp;&nbsp; 1901 Thornridge Cir. Shiloh, Hawaii 81063 <button>Buy Now</button></p>
+            <p><img src="images/Group 29.png">&nbsp;&nbsp; 1901 Thornridge Cir. Shiloh, Hawaii 81063 &nbsp;&nbsp;&nbsp;<button>Buy Now</button></p>
           </div>
         </div>
       </div>
-      <div class="col-sm-5">
+      <div class="col-sm-6">
         <div class="thumbnail">
           <img src="images/apt3.png" alt="San Francisco">
           <h5><strong>Sky hill apartment</strong></h5>
           <p style="padding-top: 10px;">Benefits</p>
           <div class="content">
-            <p><img src="images/Vector.png">Swimming Pool &nbsp;&nbsp; 
-            <img src="images/Vector (1).png">Recreation garden &nbsp;&nbsp; 
-            <img src="images/Vector (2).png" >Gated Estate &nbsp;&nbsp; 
-            <img src="images/Vector (3).png"> Security &nbsp;&nbsp; 
-          <img src="images/Vector (4).png">Beautiful Living Environment &nbsp;&nbsp; </p>
+            <p><img src="images/Vector.png">&nbsp;Swimming Pool &nbsp;&nbsp; 
+            <img src="images/Vector (1).png">&nbsp;Recreation garden &nbsp;&nbsp; 
+            <img src="images/Vector (2).png" >&nbsp;Gated Estate &nbsp;&nbsp; 
+            <img src="images/Vector (3).png"> &nbsp;Security &nbsp;&nbsp;
+          <img src="images/Vector (4).png">&nbsp;Beautiful Living Environment &nbsp;&nbsp; </p>
           </div>
           <div class="line"></div>
           <div class="location">
-            <p><img src="images/Group 29.png"> &nbsp;&nbsp; 1901 Thornridge Cir. Shiloh, Hawaii 81063 <button>Buy Now</button></p>
+            <p><img src="images/Group 29.png"> &nbsp;&nbsp; 1901 Thornridge Cir. Shiloh, Hawaii 81063&nbsp;&nbsp;<button>Buy Now</button></p>
           </div>
         </div>
       </div>
     </div>
     </div>
     <!--Product Section ends-->
+    <!--Map Integration-->
+    <<div class="container-fluid bg-dark" height="500px" >
+      <p class="text-white"> Add Map Integration here (Back End Dev)</p>
+    </div>
+    <!--Footer-->
     <footer class="container-fluid">
       <div class="cont">
       <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-5"> 
         <h4>Luxy Living</h4>
-        <div class="container-sm-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci commodo nunc sed a ac vivamus ipsum. 
+        <div class="container-sm-2" style="font-size: 16px; padding-bottom: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci commodo nunc sed a ac vivamus ipsum. 
           Id nunc commodo, sed urna nibh velit consectetur. Netus iaculis aliquam p</div>
       </div>
       <div class="col-sm-2">
