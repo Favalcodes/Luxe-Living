@@ -236,4 +236,8 @@ footer {
     .jumbotron-container {
         margin-top: 50%;
     }
+
+    #main-body .col-md-4 .card{
+        margin: 0 auto;
+    }
 }
