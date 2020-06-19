@@ -133,9 +133,17 @@ h4{
 .cont p{
     font-size: 16px;
 }
+@media only screen and (max-width: 1024px){
+    body{
+        width: 100% !important;
+    }
+}
 @media only screen and (max-width: 768px){
     .col-sm-2{
-        margin-top: 8%;
+       
         line-height: 16px;
+    }
+    .location button{
+        margin-top: 10px;
     }
 }
