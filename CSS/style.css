@@ -2,6 +2,7 @@
 *, body {
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 /* Genral styling */
 
@@ -19,7 +20,7 @@
 }
 
 #our-choose,  #partner {
-    background: #f2f2f2;
+    background: #F9F9F9;
 }
 /* section styling */
 
@@ -46,20 +47,35 @@ nav {
 .nav-link {
     margin-right: 25px;
 }
+
+.btn-primary {
+    background: #55ACEE;
+    border-color: #55ACEE;
+}
+
+.btn-primary:hover {
+    background: #55ACEE;
+    border-color: #55ACEE;
+}
 /* Navbar */
 
 /* jumbotron */
 .jumbotron {
-    min-height: calc(100vh - 60px)
+    height: 100vh;
+}
+
+.jumbotron-container {
+    margin-top: 20%;
 }
 
 .jumbotron h1{
     color: #ffffff;
     font-size: 3rem;
+    font-weight: 600;
 }
 
 .search {
-    margin-top: 20%;
+    margin: 10% auto 0 auto;
     padding: 0 auto 0 20px;
     background: #ffffff;
 }
@@ -73,15 +89,21 @@ nav {
 }
 
 .card-body{
-    background: #f2f2f2;
+    background: #f9f9f9;
 }
 
 .card p {
-    font-size: .7rem;
+    font-size: .63rem;
+    margin: 2px auto 5px auto;
 }
 
 .card hr {
-    margin: 0 auto 5px auto;
+    margin: 10px auto;
+}
+
+.card-btn {
+    margin-top: 10px;
+    margin-left: 150px;
 }
 
 /* Properties feature style */
@@ -157,8 +179,6 @@ nav {
 }
 /* choosen section */
 
-
-
 /* testimony */
 .testimony-wrapper {
     background-color: #e8fffe;
@@ -168,10 +188,9 @@ nav {
 /* testimony */
 
 
-
 /* footer */
 footer {
-    background: #0275d8;
+    background: #55ACEE;
     color: #fff;
     padding:  5% 20px 15px 20px;
 }
@@ -189,6 +208,7 @@ footer {
 
 
 /* Media Queries */
+
 @media only screen and (max-width: 950px) {
     .jumbotron h1{
         font-size: 2rem;
@@ -198,5 +218,22 @@ footer {
 @media only screen and (max-width: 400px) {
     .jumbotron h1{
         font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .jumbotron {
+        height: 50vh;
+    }
+
+    .jumbotron-container {
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .jumbotron-container {
+        margin-top: 50%;
     }
 }
