@@ -1,0 +1,108 @@
+:root {
+	--black: #000;
+	--light-black: rgba(0, 0, 0, 0.5);
+	--light-blue: #55acee;
+	--grey: #c4c4c4;
+	--white: #fff;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.4rem;
+	color: var(--black);
+	letter-spacing: 0.07rem;
+}
+
+ul {
+	list-style-type: none;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+}
+
+.heading {
+	font-size: 1.4rem;
+	font-style: normal;
+	font-weight: 600;
+	margin: 1rem 0;
+	text-transform: capitalize;
+}
+
+.logo__link {
+	width: 5.8rem;
+	height: 2.81rem;
+}
+
+.row {
+	margin-bottom: 2rem;
+}
+
+.hero-image__container {
+	min-height: 17rem;
+}
+
+.hero-image__small {
+	min-height: 5.9rem;
+}
+
+.btn-primary {
+	padding: 0.9rem;
+	font-weight: 600;
+	font-size: 1.5rem;
+	background-color: var(--light-blue);
+	border-radius: 0.5rem;
+	border: 0;
+	text-transform: capitalize;
+}
+
+.list-group {
+	margin: 0.1rem;
+}
+
+.list-group > li > span {
+	margin-left: 5rem;
+}
+
+.icon {
+	width: 1.6rem;
+	height: 1.6rem;
+	margin-right: 1rem;
+}
+
+.content-group {
+	border: 1px solid var(--grey);
+	padding: 1rem;
+	border-radius: 0.3rem;
+}
+
+div > span {
+	color: var(--light-black);
+}
+
+.contact__card {
+	border: 0.1rem solid var(--grey);
+	max-height: 92rem;
+}
+
+input,
+textarea {
+	padding: 0.5rem;
+	border: 0.1rem solid var(--grey);
+	border-radius: 0.5rem;
+}
+
+footer {
+	background-color: var(--light-blue);
+	color: var(--white);
+}
+
+.footer__heading {
+	font-size: 1.8rem;
+}
