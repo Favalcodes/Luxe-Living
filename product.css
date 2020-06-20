@@ -115,7 +115,7 @@ h4{
 }
 .container-sm-2{
    
-    width: 300px !important;
+    width: 250px !important;
 
 }
 h4{
@@ -146,4 +146,5 @@ h4{
     .location button{
         margin-top: 10px;
     }
+    
 }
