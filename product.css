@@ -29,6 +29,24 @@ body{
     color: #222222;
     font-size: 48px;
 }
+.row.search{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    color: #222222;
+   
+}
+.btn{
+    font-size: 14px;
+    padding-right: 10px;
+}
+::placeholder{
+    font-size: 14px;
+}
 /*Image columns*/
 .container-sm{
 
@@ -145,5 +163,8 @@ h4{
     }
     .location button{
         margin-top: 10px;
+    }
+    .col-md-2.mt-3.col-md-2{
+        padding-bottom: 12px;
     }
 }
