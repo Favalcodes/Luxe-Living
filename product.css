@@ -31,9 +31,21 @@ body{
 }
 .row.search{
     position: absolute;
-    top:40%;
-    left: 15%;
     background: rgba(255, 255, 255, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    color: #222222;
+   
+}
+.btn{
+    font-size: 14px;
+    padding-right: 10px;
+}
+::placeholder{
+    font-size: 14px;
 }
 /*Image columns*/
 .container-sm{
