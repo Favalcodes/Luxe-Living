@@ -162,5 +162,8 @@ h4{
     .location button{
         margin-top: 10px;
     }
+    .col-md-2.mt-3.col-md-2{
+          padding-bottom: 10px;
+    }
     
 }
