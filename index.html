@@ -9,11 +9,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    <!--Google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
      <!--Font Awesome-->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
     
     <!--custom style-->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
 
     <title>Real Estate</title>
   </head>
@@ -64,53 +67,57 @@
       <!--End of Navbar-->
 
       <!-- Jumbotron-->
-    <div class="jumbotron" style="background-image: url(./images/background.svg); background-size: cover; background-repeat: no-repeat;">
+      <div class="jumbotron" style="background-image: url(./images/background.svg); background-size: cover; background-repeat: no-repeat;">
         <div class="container">
-            <h1 class="display-4 mt-4 text-center font-weight-bold">Find Your Dream Home At Luxe Living</h1>
-            <div class="row search">
-                <div class="col-lg-4 mt-3 col-md-8">
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Search property" aria-label="Username" aria-describedby="basic-addon1">
+            <div class="jumbotron-container">
+                <h1 class="display-4 mt-4 text-center font-weight-bold">Find Your Dream Home At Luxe Living</h1>
+                <div class="row">
+                        <div class="search d-none d-md-flex">
+                                <div class="col-lg-4 mt-3 ">
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="Search property" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                </div>
+                                <div class="col-lg-2 mt-3 ">
+                                        <div class="dropdown">
+                                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Property Type
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="col-lg-2 mt-3 ">
+                                        <div class="dropdown">
+                                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Location
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="col-lg-2 mt-3 ">
+                                        <div class="dropdown">
+                                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Rooms
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="col-md-2 mt-3 ">
+                                        <button type="button" class="btn btn-primary">Search</button>
+                                </div>
                         </div>
-                </div>
-                <div class="col-lg-2 mt-3 d-none d-lg-block">
-                        <div class="dropdown">
-                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Property Type
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </div>
-                </div>
-                <div class="col-lg-2 mt-3 d-none d-lg-block">
-                        <div class="dropdown">
-                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Location
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </div>
-                </div>
-                <div class="col-lg-2 mt-3 d-none d-lg-block">
-                        <div class="dropdown">
-                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Rooms
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </div>
-                </div>
-                <div class="col-md-2 mt-3 col-md-2">
-                        <button type="button" class="btn btn-primary">Search</button>
                 </div>
             </div>
         </div>
@@ -120,11 +127,24 @@
     <!-- properties feature-->
     <section id="main-body">
         <div class="container">
+
+            <div class="row d-md-none mt-0 mb-3">
+                <div class="col-8">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Search property" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <button type="button" class="btn btn-primary">Search</button>
+                </div>
+            </div>
+
             <div class="main-body-title text-center">
                 <h2>Featured Properties</h2>
                 <p>Check out some of our property handpicked by our team</p>
             </div>
-            <div class="row justify-content-center">
+            
+            <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="card" style="width: 18rem;">
                         <img src="./images/apartment1.svg" class="card-img-top" alt="...">
@@ -138,8 +158,8 @@
                                 <p><i class="fas fa-torii-gate"></i> Gated Estate</p>
                                 <p><i class="fas fa-shield-alt"></i> Security</p>
                             </div><hr>
-                            <p style="font-size: .75em;"><i class="fas fa-map-marker-alt"></i> 1901 Thomridge Gir. Shiloh, Hawali 81063</p>
-                          <a href="#" class="btn btn-primary">Buy Now</a>
+                            <p><i class="fas fa-map-marker-alt"></i> 1901 Thomridge Gir. Shiloh, Hawali 81063</p>
+                          <a href="#" class="btn btn-primary card-btn">Buy Now</a>
                         </div>
                       </div>
                 </div>
@@ -156,8 +176,8 @@
                                 <p><i class="fas fa-torii-gate"></i> Gated Estate</p>
                                 <p><i class="fas fa-shield-alt"></i> Security</p>
                           </div><hr>
-                          <p style="font-size: .75em;"><i class="fas fa-map-marker-alt"></i> 1901 Thomridge Gir. Shiloh, Hawali 81063</p>
-                          <a href="#" class="btn btn-primary">Buy Now</a>
+                          <p><i class="fas fa-map-marker-alt"></i> 1901 Thomridge Gir. Shiloh, Hawali 81063</p>
+                          <a href="#" class="btn btn-primary card-btn">Buy Now</a>
                         </div>
                       </div>
                 </div>
@@ -174,8 +194,8 @@
                                 <p><i class="fas fa-torii-gate"></i> Gated Estate</p>
                                 <p><i class="fas fa-shield-alt"></i> Security</p>
                             </div><hr>
-                            <p style="font-size: .75em;"><i class="fas fa-map-marker-alt"></i> 1901 Thomridge Gir. Shiloh, Hawali 81063</p>
-                          <a href="#" class="btn btn-primary">Buy Now</a>
+                            <p><i class="fas fa-map-marker-alt"></i> 1901 Thomridge Gir. Shiloh, Hawali 81063</p>
+                          <a href="#" class="btn btn-primary card-btn">Buy Now</a>
                         </div>
                       </div>
                 </div>
@@ -193,7 +213,7 @@
                 <p>We Bring Integrity, Clarity, Trust and Expertise To Every Transaction</p>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="col-md-3 col-6">
                     <div class="circle">
                         <img class="outer" src="./images/trust.svg" alt="">
                         <img class="left" src="./images/trust-circle.svg" alt="">
@@ -203,7 +223,7 @@
                         <p>Trusted By Thousands</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="col-md-3 col-6">
                     <div class="circle">
                         <img class="top" src="./images/Home.svg" alt="">
                         <img class="left" src="./images/left-hand.svg" alt="">
@@ -214,7 +234,7 @@
                         <p>Wide Ranges of Properties</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="col-md-3 col-6">
                     <div class="circle">
                         <img class="fin-top" src="./images/fin-inner.svg" alt="">
                         <img class="fin-left" src="./images/fin-left.svg" alt="">
@@ -225,7 +245,7 @@
                         <p>Financing Made Easy</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="col-md-3 col-6">
                     <div class="circle">
                         <img class="outer" src="./images/security1.svg" alt="">
                         <img class="middle" src="./images/security.svg" alt="">
