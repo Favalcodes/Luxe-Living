@@ -150,7 +150,13 @@ h4{
 }
 .cont p{
     font-size: 16px;
+    
+/* Css for google map integration */
+#map{
+    height: 400px;
+    width: 100%;
 }
+
 @media only screen and (max-width: 1024px){
     body{
         width: 100% !important;
@@ -166,5 +172,9 @@ h4{
     }
     .col-md-2.mt-3.col-md-2{
         padding-bottom: 12px;
+    }
+    #map{
+        height: 280px;
+        width: 100%;
     }
 }
