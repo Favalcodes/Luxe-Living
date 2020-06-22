@@ -4,7 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
 
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 /* Genral styling */
 
@@ -58,5 +58,22 @@ footer {
 @media only screen and (max-width: 400px) {
   .jumbotron h1 {
     font-size: 1rem;
+  }
+}
+
+.shake {
+  animation: shake 0.5s ease 2;
+}
+
+/* Animation */
+@keyframes shake {
+  0% {
+    transform: translateX(-3px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(3px);
   }
 }
