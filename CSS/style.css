@@ -241,3 +241,188 @@ footer {
         margin: 0 auto;
     }
 }
+
+/* Product page */
+
+/*header*/
+.nav-item .nav-link{
+    color: #000000;
+}
+  
+/*Background Image*/
+.bg{
+    background: url(./images/landing-img.png) center center/cover no-repeat;
+    height: 85vh;
+    position: relative;
+}
+/*Image Nav*/
+.img-nav{
+    bottom: 0px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222222;
+    font-size: 48px;
+}
+.row.search{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    color: #222222;
+   
+}
+.btn{
+    font-size: 14px;
+    padding-right: 10px;
+}
+::placeholder{
+    font-size: 14px;
+}
+/*Image columns*/
+.container-sm{
+
+    margin: auto;
+    margin-top: 5%;
+    text-align: left;
+    margin-bottom: 5%;
+    
+}
+
+
+.thumbnail{
+   background:rgba(240, 235, 235, 0.541);
+    border: none;
+    border-radius: 5px;
+    padding-Left:24px;
+    padding-right: 23px;
+    padding-top: 18px;
+}
+.thumbnail img{
+    width: 100%;
+}
+.content img{
+    width: 9.81px;
+    height: 12.1px;
+}
+.location img{
+    width: 17.81px;
+    height: 24.1px
+}
+.line{
+    border: 1px #e0e0e0;
+    
+    height: 2px;
+    background-color: #e0e0e0;
+}
+h5{
+    color: #000000;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 50px;
+    text-align: left;
+}
+.thumbnail p{
+    text-align: left;
+    font-weight: 450;
+    font-size: 16px;
+   
+   
+}
+.content{
+    text-align: justify;
+    height: 100px;
+}
+.location{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    
+}
+.location button{
+    background: #55acee;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 128px;
+}
+.container-fluid{
+    background: #55acee;
+    
+}
+.cont{
+    margin-top: 5%;
+    color: #ffffff;
+}
+h4{
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.col-sm-6{
+    margin-top: 3%;
+}
+.container-sm-2{
+   
+    width: 300px !important;
+
+}
+h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.container-fluid{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.cont{
+    padding-left: 30px;
+}
+.cont p{
+    font-size: 16px;
+}
+@media only screen and (max-width: 1024px){
+    body{
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 768px){
+    .col-sm-2{
+       
+        line-height: 16px;
+    }
+    .location button{
+        margin-top: 10px;
+    }
+    .col-md-2.mt-3.col-md-2{
+        padding-bottom: 12px;
+    }
+}
+
+/* Login page */
+
+/* Shake */
+.shake {
+  animation: shake 0.5s ease 2;
+}
+
+/* Animation */
+@keyframes shake {
+  0% {
+    transform: translateX(-3px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(3px);
+  }
+}
